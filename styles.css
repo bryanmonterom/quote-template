@@ -1,0 +1,90 @@
+.container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.bar{
+    margin-top: 25px;
+    height: 25px;
+    background-color: red;
+    width: 100%;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+
+.quote-section{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5PX;
+}
+
+
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.quote-section-info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+.underlined{
+    text-decoration: underline;
+}
+
+.underlined-info{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+
+
+.split-info{
+    width: 45%;
+}
+
+.client-info-height{
+ height: 60px;
+}
+
+.totals-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.total-items{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.total-title{
+    width: 45%;
+    font-weight: bold;
+}
+.underlined-totals{
+    width: 55%;
+    border-bottom: 1px solid black;
+}
+
+.last{
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+    border-top: 5px solid black;
+}

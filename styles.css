@@ -58,6 +58,8 @@
 
 .client-info-height{
  height: 60px;
+ display: flex;
+ flex-direction: column;
 }
 
 .totals-section{
